@@ -1,0 +1,11 @@
+#main_preguntas_frecuentes {
+    .accordion-button {
+        font-size: 2rem;
+        &hover {
+            background-color: $green;
+        }
+    }
+    .accordion-button{
+        background-color: $green !important;
+    }
+}

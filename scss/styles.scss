@@ -1,0 +1,104 @@
+@import "vars";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%; /*1 rem = 10 px */ 
+}
+
+body {
+    font-family: $font-primary;
+    background-color: rgb(240, 240, 245);
+    font-size: 16px;
+    @import "header";
+    @import "seccions/home";
+    @import "seccions/faq";
+    @import "seccions/contact";
+}
+
+h1, h2, h3 {
+    font-family: $font-secondary;
+    color: $grey;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    color: $grey;
+    margin-top: 2rem;
+}
+
+/*clases varias*/
+.section_text {
+    text-align: center;
+    margin: 4rem 10rem; 
+}
+
+.section_text_img {
+    margin: 0rem 10rem 4rem 10rem;
+    text-align: center;
+}
+
+.title_contact {
+    color: $green;
+}
+
+.img_fluid {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 13rem;
+}
+.icon_w {
+    width: 6rem;
+    height: 6rem;
+}
+.icon_contact {
+    width: 2rem;
+    height: 2rem;
+}
+.icon_service {
+    width: 13rem;
+    height: 13rem;
+}
+
+.mt-full {
+    margin-top: 15rem;
+}
+
+.btn-orange {
+    background-color: $green;
+    border-color: $green;
+}
+
+.map__container,
+.form__container {
+    background-color: #b8b8b8;
+}
+
+.map__container,
+.form__container {
+    h3 {
+        font-size: 3rem;
+    }
+}
+
+.map__container {
+    .list-group-item-my {
+        background-color: transparent !important;
+    }
+}
+
+.btn {
+    font-size: 2rem;
+}

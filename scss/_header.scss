@@ -1,0 +1,33 @@
+header {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    background-color: rgb(240, 240, 245);
+    nav {
+        .button_nav {
+            font-size: 3rem;
+            margin-left: auto;
+        }
+        .my_nav {
+            color: $green;
+            font-weight: bold;
+            text-decoration: none;
+            background-color: rgb(240, 240, 245);
+            margin-left: auto;
+            li {
+                margin-right: 2rem;
+                a {
+                    &:hover {
+                        background-color: $green;
+                        color: whitesmoke;
+                        border-radius: 1rem;
+                    }
+                }
+            }
+            &:hover {
+                color: whitesmoke;
+            }
+        }
+    }
+}
